@@ -1,1 +1,21 @@
-theme: minima
+theme: jekyll-theme-cayman
+
+title: My Awesome Website
+description: Welcome to my awesome website!
+url: "https://bhushan-mrv.github.io/skills-github-pages"
+twitter_username: your_twitter_username
+github_username: your_github_username
+
+markdown: kramdown
+highlighter: rouge
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - about.md
+  - contact.md
